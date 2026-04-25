@@ -31,7 +31,7 @@ namespace Topic_13._3___Checkbox
             {
                 lblResults.Text = "You are truly a person of culture.";
             }
-            else if ( ) // Neither is checked
+            else if (!chkStarWars.Checked && !chkStarTrek.Checked) // Neither is checked
             {
                 lblResults.Text = "You have much to learn.";
             }
