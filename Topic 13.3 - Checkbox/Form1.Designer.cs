@@ -76,6 +76,7 @@
             this.btnSubmit.TabIndex = 3;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // lblResults
             // 
@@ -91,7 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(367, 247);
+            this.ClientSize = new System.Drawing.Size(367, 193);
             this.Controls.Add(this.lblResults);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.chkStarWars);
