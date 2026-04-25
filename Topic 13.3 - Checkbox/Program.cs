@@ -16,7 +16,7 @@ namespace Topic_13._3___Checkbox
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormCheckDemo());
         }
     }
 }

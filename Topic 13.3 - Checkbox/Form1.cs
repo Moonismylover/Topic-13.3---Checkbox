@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Topic_13._3___Checkbox
 {
-    public partial class Form1 : Form
+    public partial class FormCheckDemo : Form
     {
-        public Form1()
+        public FormCheckDemo()
         {
             InitializeComponent();
         }
