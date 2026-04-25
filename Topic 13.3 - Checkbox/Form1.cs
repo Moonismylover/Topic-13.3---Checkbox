@@ -35,5 +35,6 @@ namespace Topic_13._3___Checkbox
             {
                 lblResults.Text = "You have much to learn.";
             }
+        }
     }
 }
